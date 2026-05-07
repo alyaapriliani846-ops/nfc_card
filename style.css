@@ -51,6 +51,7 @@ body{
     filter:blur(120px);
 
     opacity:0.35;
+    overflow:hidden;
 
     animation:float 8s infinite ease-in-out;
 }
@@ -60,7 +61,7 @@ body{
     height:300px;
 
     background:#d4a84f;
-
+    overflow:hidden;
     top:-120px;
     left:-120px;
 }
@@ -70,7 +71,7 @@ body{
     height:300px;
 
     background:#7c5a1f;
-
+    overflow:hidden;
     bottom:-120px;
     right:-120px;
 }
